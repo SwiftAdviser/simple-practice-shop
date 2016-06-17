@@ -1,0 +1,20 @@
+.product {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.desc {
+    margin-bottom: 15px;
+    background: #F1F1F1;
+    padding: 5px;
+}
+.button {
+    text-align: center;
+}
