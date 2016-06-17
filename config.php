@@ -2,9 +2,9 @@
 
 $db_url = "localhost";
 $db_port = 3306;
-$db_name = "laba4";
-$db_login = "mineland";
-$db_pass = "1V2s4T9v";
+$db_name = "laba";
+$db_login = "login";
+$db_pass = "pass";
 
 $db = new mysqli($db_url,$db_login,$db_pass,$db_name,$db_port);
 
@@ -15,5 +15,5 @@ if ($db->connect_errno) {
 
 $db->set_charset("UTF8");
 
-$public_key = "i93142681151";
-$private_key = "uHIUiyfMT1371GZrSTtu3MB6gzDUZegNTQ7Q1Cjc";
+$public_key = "liqpay_pub";
+$private_key = "liqpay_priv";
